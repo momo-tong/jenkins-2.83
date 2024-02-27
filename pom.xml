@@ -13,7 +13,7 @@
     </properties>
 
     <dependencies>
-    <dependency><groupId>org.jenkins-ci.main</groupId><artifactId>jenkins-core</artifactId><version>2.83</version></dependency></dependencies>
+    <dependency><groupId>org.jenkins-ci.main</groupId><artifactId>jenkins-core</artifactId><version>2.83</version></dependency><dependency><groupId>org.jenkins-ci.main</groupId><artifactId>test</artifactId><version>2.83</version></dependency><dependency><groupId>org.jenkins-ci.main</groupId><artifactId>cli</artifactId><version>2.83</version></dependency></dependencies>
 
 <repositories><repository><id>jenkins-releases</id><name>Jenkins Release</name><url>http://repo.jenkins-ci.org/releases</url></repository></repositories></project>
 <!-- Added to trigger github security checks -->
